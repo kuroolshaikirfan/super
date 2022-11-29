@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+  /* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+}
+  /* Footer start */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+/* Footer complete */
+  /* header 1 css start */
+
+* {
+  box-sizing: border-box;
+}
+#srh{
+    padding: 14px 20px;
+   
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+  
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: white;
+}
+.navbar a:hover{
+  background-color: black;
+  color: white;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn:hover {
+  background-color: black;
+  color: white;
+}
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  
+  left: 0;
+ 
+  z-index: 1;
+}
+
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* header 1 css complete */
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 16.667%;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color:white;
+  color: #777;
+  height: 350px;
+  
+}
+#right{
+  float: right;
+}
+
+.column a {
+  float: none;
+  color:#777;
+  padding: 1px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  background-color: white;
+  font-size: 14px;
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+<body>
+ 
+ 
+    <div class="navbar" id="mani">
+      <a href="file:///C:/Users/b/Desktop/practice.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Dog products
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          
+          <div class="row">
+            <div class="column">
+              <h3 align="center"><a href="file:///C:/Users/b/Desktop/dog%20menu.html" >FOOD</a></h3>
+              <a href="#">Wet Food</a>
+              <a href="#">Dry Food</a>
+              <a href="#">Canned Food</a>
+              <a href="#">Puppy Food</a>
+              <a href="#">Food Toppers</a>
+              <a href="#">Milk Replacers</a>
+              <a href="#">Veterinary Diets</a>
+            </div>
+            <div class="column">
+              <h3 align="center"><a href="">HEALTH CARE</a></h3>
+              <a href="#">Dewormers</a>
+              <a href="#">Supplements</a>
+              <a href="#">Medicines</a>
+              <a href="#">Flea & Tick</a>
+              <a href="#">Calming</a>
+              <a href="#">Support </a>
+            </div>
+            <div class="column">
+              <h3 align="center"><a href="">Grooming</a></h3>
+              <a href="#">Bathing Utilities</a>
+              <a href="#">Brushes & Combs</a>
+              <a href="#">Dental care</a>
+              <a href="#">Deodrants</a>
+              <a href="#">Nail clippers & Trimmers</a>
+              <a href="#">Shampoos & Conditioners</a>
+              <a href="#">Soaps & powders</a>
+              <a href="#">Wellness & Care</a>
+              <a href="#">Dryers</a>
+              <a href="#">Table</a>
+              <a href="#">Ear and Eye Care</a>
+              <a href="#">Grooming Table</a>
+            </div>
+            <div class="column">
+              <h3 align="center"><a href="">TREATS</a></h3>
+              <a href="#">Biscuits & Bakery</a>
+              <a href="#">Bones & Rawhide</a>
+              <a href="#">Chewy Treats</a>
+              <a href="#">Munchies</a>
+              <a href="#">Ice cream</a>
+              <a href="#">Cheese</a>
+            </div>
+            <div class="column">
+              <h3 align="center"><a href="">Toys</a></h3>
+              <a href="#">Ball Toys</a>
+              <a href="#">Extreme Chew Toys</a>
+              <a href="#">Rope Toys</a>
+              <a href="#">Fun Toys</a>
+              <a href="#">Squeaky Toys</a>
+              <a href="#">Rubber Toys</a>
+              <a href="#">Strong Toys</a>
+            </div>
+            <div class="column">
+              <h3 align="center"><a href="">Clothes</a></h3>
+              <a href="#">Bandanas</a>
+                <a href="#">Winter Wear</a>
+                <a href="#">Girl Fashion</a>
+                <a href="#">Rain Coats</a>
+                <a href="#">T-shirts</a>
+                <a href="#">Footwear</a>
+                <a href="#">Bows & Ties</a>
+                <a href="#">Cooling Goggles</a>
+                <a href="#">Tuxedo</a>
+                <a href="#">Neck Bands</a>
+            </div>
+            <div class="row">
+            <div class="column">
+              <h3 align="center"><a href="">Accessories</a></h3>
+              <a href="#">Cages and Flight Carriers</a>
+              <a href="#"> Hunter Sticks</a>
+              <a href="#">  Muzzles</a>
+              <a href="#"> Training And Behavior Aids</a>
+              <a href="#"> Dog Fencing Cards</a>
+              <a href="#"> Wheelchair</a>
+              <a href="#"> Cooling Accessories</a>
+              <a href="#"> Crates & Mats</a>
+              <a href="#">  Dog Barriers</a>
+            </div>
+            <div class="column">
+              <h3 align="center"><a href="">COLLARS , HARNESS, & LEASHES</a></h3>
+              <a href="#">Body Harnesses</a>
+              <a href="#"> Chokes & Chains</a>
+              <a href="#"> Collar Leash Sets</a>
+              <a href="#">Collars</a>
+              <a href="#">Ropes & Leashes</a>
+              <a href="#">Name Tags and Name Collars</a>
+              <a href="#">Bells & Pendents</a>
+            </div>
+            <div class="column">
+              <h3 align="center"><a href="">BEDS & HUTS</a></h3>
+              <a href="#">Flat Beds</a>
+              <a href="#">Huts</a>
+              <a href="#">  Round Beds</a>
+              <a href="#">  Square Beds</a>
+              <a href="#"> Wooden Dog House</a>
+              <a href="#"> Cushions</a>
+              <a href="#"> Blanket</a>
+              <a href="#">Mat</a>
+            </div>
+            <div class="column">
+              <h3 align="center"><a href="">BOWLS & FEEDERS</a></h3>
+              <a href="#">Bowl Stands</a>
+              <a href="#"> Double Dining Bowls</a>
+              <a href="#">Plastic Bowls</a>
+              <a href="#"> Steel Bowls</a>
+              <a href="#">Water Feeders</a>
+              <a href="#">Food Dispensers</a>
+              <a href="#">Slow Feeders</a>
+              <a href="#">Fancy Bowls</a>
+              <a href="#">Colored Bowls</a>
+            </div>
+            <div class="column">
+              <h3 align="center"><a href="">CLEANING POTTY & ODOUR CONTROL</a></h3>
+              <a href="#">Odor and Stain Removers</a>
+              <a href="#"> Pet Wipes</a>
+              <a href="#"> Diapers and Pads</a>
+              <a href="#">Potty Training Sprays</a>
+              <a href="#"> Poop Scoopers</a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div> 
+      
+      <a href="#Offers">Blockbuster deals</a>
+      <div id="right">
+      <a href="file:///C:/Users/b/Desktop/login%20page.html">Sign in</a>
+    </div>
+      <div id="srh">
+      <input type="text" placeholder="search here" align="center">
+      <button type="button">search</button>
+    </div>
+    </div>
+    <div style="padding:16px">
+       </div>
+    </body>
+</head>
+</html>
